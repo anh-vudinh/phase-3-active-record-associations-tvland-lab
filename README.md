@@ -1,13 +1,13 @@
-# Active Record TV Land Lab
+<!-- # Active Record TV Land Lab
 
 ## Learning Goals
 
 - Create and modify tables using Active Record migrations
-- Build associations between models using Active Record macros
+- Build associations between models using Active Record macros -->
 
 ## Introduction
 
-In this lab, we'll be working with a TV show domain model. We will have a show,
+<!-- In this lab, we'll be working with a TV show domain model. We will have a show,
 network, and character model. They will be associated in the following way:
 
 - An actor has many characters and has many shows through characters.
@@ -17,23 +17,23 @@ network, and character model. They will be associated in the following way:
 Here's what the completed ERD will look like after you've created the additional
 migrations:
 
-![TVLand ERD](https://curriculum-content.s3.amazonaws.com/phase-3/active-record-associations-tvland-lab/tvland-erd.png)
-
+![TVLand ERD](https://curriculum-content.s3.amazonaws.com/phase-3/active-record-associations-tvland-lab/tvland-erd.png) -->
+<!-- 
 We've given you a few migrations in the `db/migrate` directory to create the
 networks and shows table, but you'll have to add additional tables and modify
 these existing tables as per the guidelines below.
 
-## Instructions
+## Instructions -->
 
-This lab is test-driven, so run `learn test` to see what you need to work on.
+<!-- This lab is test-driven, so run `learn test` to see what you need to work on.
 Start by completing the migrations. The first three migration files are
-complete. You only need to work on the `004`, `005` and `006` migrations.
+complete. You only need to work on the `004`, `005` and `006` migrations. -->
 
-Then, work on building out methods in the classes. Make sure to use the Active Record
+<!-- Then, work on building out methods in the classes. Make sure to use the Active Record
 association macros like `has_many` and `belongs_to`. Remember, using these macros
 creates **instance methods** on your classes, so to pass some of the tests, the macros
-will be enough! You'll also have to write out some custom methods as well.
-
+will be enough! You'll also have to write out some custom methods as well. -->
+<!-- 
 ### Migrations
 
 #### 004_create_actors
@@ -48,14 +48,14 @@ Write a migration to create the `characters` table. A character should have a
 
 A character will belong to a show (the show migration is already provided) and
 an actor, and we'll keep track of this relationship with these database table
-columns.
+columns. -->
 
-#### 006_add_catchphrase_to_characters
+<!-- #### 006_add_catchphrase_to_characters
 
 Write a migration that adds the column `catchphrase` as a string to your
 `characters` table.
 
-### Model Methods
+### Model Methods -->
 
 #### Character
 
